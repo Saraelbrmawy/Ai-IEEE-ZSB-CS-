@@ -1,0 +1,5 @@
+List=list(map(int,input().split()))
+s1=sorted(List)
+s2=sorted(List,reverse=True)
+print(s1[1])
+print(s2[1])
